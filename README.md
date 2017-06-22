@@ -1,6 +1,6 @@
 # Weather Angular Application
 
-In this tutorial you will step-by-step learn to build a weather app. The final app will include a weather app and will allow you to lookup weather of different locations. This angular application uses the following services: 
+In this tutorial you will step-by-step learn to build a weather app. The final app will include a weather app and will allow you to lookup weather of different locations. The final app will look like [this](https://vidur149.github.io/angular/weather/)This angular application uses the following services: 
 * Open Weather Map [Api](http://openweathermap.org/current) for getting weather details of a place.
 * HTML5 navigator object to get the latitude and longitude of the current location.
 * Google places api for getting latitude and longitude of the place you enter in the search box.
