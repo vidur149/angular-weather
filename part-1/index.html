@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html ng-app="counter">
+
+<head>
+    <title>Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="theme.css ">
+    <script src="https://use.edgefonts.net/maiden-orange.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div ng-controller="Weather" class="weather {{state}}">
+        <div class="std-container weather-container">
+
+            <h1> Weather in </h1>
+            <h2>
+                {{response.main.temp}} °C
+            </h2>
+            <span>  Todays Date </span>
+            <div class="weather-des">
+                <p> </p>
+                <img alt="weather-logo">
+            </div>
+            <h3>
+                Details
+            </h3>
+            <table>
+                <tr>
+                    <td>Feels Like</td>
+                    <td> °C</td>
+                </tr>
+                <tr>
+                    <td>Wind</td>
+                    <td> m/s</td>
+                </tr>
+                <tr>
+                    <td>Humidity</td>
+                    <td> %</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
